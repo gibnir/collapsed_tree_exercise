@@ -1,0 +1,42 @@
+.Treelist {}
+/*
+.Treelist li {
+  background-color: #92b6d5;
+}*/
+
+body {
+  padding: 0px 20px;
+  font-family: serif;
+}
+
+.Treelist a {
+  color: #000000;
+  display: block;
+  text-decoration:none;
+  font-size: 20px; 
+}
+
+.Treelist ul {
+  list-style-type: none;
+  padding-left:20px;    
+}
+
+.Treelist ul li:before {
+     /*content: "-";*/
+     display: inline-block;
+     width: 10px;
+}
+
+.Treelist .collapsed ul {
+  display: none;
+}
+
+.Treelist li.collapsed:before {
+  /*content: '+';*/
+  display: inline-block;
+  width: 10px;
+}  
+.Treelist li a:hover {
+  cursor: pointer;
+  background-color: #92b6d5;
+}

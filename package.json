@@ -1,0 +1,26 @@
+{
+  "name": "trainologic_app",
+  "version": "1.0.0",
+  "description": "Practical Angular 1 Exam",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server ./app -a localhost -p 3001 -c-1"
+  },
+  "keywords": [
+    "angularjs",
+    "html.css\u001b[D\u001b[D\u001b[",
+    "\u001b[C\u001b[C\u001b[C",
+    "bootstarp"
+  ],
+  "author": "nir gibli",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.5.11",
+    "angular-route": "^1.5.0",
+    "angular-ui-router": "^0.2.18",
+    "bootstrap": "^3.3.7",
+    "http-server": "^0.10.0",
+    "jquery": "^3.2.1"
+  }
+}
